@@ -33,14 +33,11 @@ class WelcomeScreen extends StatelessWidget {
                           Navigator.pushNamed(context, '/login');
                         }),
                     SizedBox(height: 15),
-                    SizedBox(
-                      width: MediaQuery.of(context).size.width - 40,
-                      child: CustomElevatedButton.light(
-                        text: "Signup",
-                        onPressed: () {
-                          Navigator.pushNamed(context, '/sign');
-                        },
-                      ),
+                    CustomElevatedButton.light(
+                      text: "Signup",
+                      onPressed: () {
+                        Navigator.pushNamed(context, '/sign');
+                      },
                     ),
                   ],
                 ),

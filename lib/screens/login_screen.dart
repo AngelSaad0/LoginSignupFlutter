@@ -151,6 +151,20 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
             ),
           ),
+          SafeArea(
+            child: Positioned(
+              child: IconButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                icon: Icon(
+                  Icons.arrow_back_ios_new,
+                  color: Colors.purple,
+                  size: 25,
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );

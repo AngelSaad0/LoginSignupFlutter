@@ -51,7 +51,7 @@ class _SignupScreenState extends State<SignupScreen> {
                     SizedBox(height: 30),
                     SvgPicture.asset(
                       'lib/assets/icons/signup.svg',
-                      height: 270,
+                      height: 240,
                     ),
                     SizedBox(height: 16),
                     Container(
@@ -122,9 +122,9 @@ class _SignupScreenState extends State<SignupScreen> {
                         ),
                       ),
                     ),
-                    SizedBox(height: 16),
+                    SizedBox(height: 10),
                     CustomElevatedButton.dark(text: 'Signup', onPressed: () {}),
-                    SizedBox(height: 16),
+                    SizedBox(height: 10),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -239,9 +239,25 @@ class _SignupScreenState extends State<SignupScreen> {
                       ),
                     ),
 
-                    SizedBox(height: 200),
+                    SizedBox(height: 150),
                     // Spacer()
                   ],
+                ),
+              ),
+            ),
+          ),
+          SafeArea(
+            child: Positioned(
+              top: 35,
+              child: IconButton(
+                highlightColor: Colors.amber,
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                icon: Icon(
+                  Icons.arrow_back_ios_new,
+                  color: Colors.purple,
+                  size: 25,
                 ),
               ),
             ),
