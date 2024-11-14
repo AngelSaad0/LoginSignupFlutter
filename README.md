@@ -1,16 +1,6 @@
-# login_signup_ui
+<img src="https://github.com/user-attachments/assets/07b5bb73-aa5a-4554-82cb-c1162696a820" width ="280" />
+<img src="https://github.com/user-attachments/assets/f74c4cc0-147b-41c8-aeb1-4499fc761b56" width ="280" />
+<img src="https://github.com/user-attachments/assets/0a9a3a53-1953-4ad1-88cd-5f372480ae9d" width ="280" />
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
